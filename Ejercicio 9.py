@@ -1,12 +1,11 @@
 from calculadora_cientifica import CalculadoraCientifica
 
 def main():
-    # Crear una instancia de la calculadora científica
+
     calculadora = CalculadoraCientifica()
 
     print("=== Calculadora Científica ===")
     
-    # Ejemplos de operaciones
     numero = 16
     print(f"Raíz cuadrada de {numero}: {calculadora.calcular_raiz_cuadrada(numero)}")
 
